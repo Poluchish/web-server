@@ -13,7 +13,7 @@
 \---modules
 |   |   my_module.py
 \---templates
-        functions.html
+|   |   functions.html
 
 Отправка POST-запроса на web-сервер для проверки сортировки:
 curl -X POST http://127.0.0.1:5000/json/my_module/sort_errors -H "Content-Type: application/json" -d @data.json
