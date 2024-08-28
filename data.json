@@ -1,0 +1,16 @@
+{
+    "data": {
+      "ERROR number 1": {
+        "ident": "2.6.11",
+        "value": " test   test   "
+      },
+      "ERROR number 2": {
+        "ident": "3.1.2",
+        "value": " bla bla   "
+      },
+      "ERROR number 3": {
+        "ident": "2.5",
+        "value": "Boo Boo     Boo"
+      }
+    }
+  }  

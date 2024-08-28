@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Functions</title>
+</head>
+<body>
+    <h1>Available Functions</h1>
+    <table border="1">
+        <tr>
+            <th>Module</th>
+            <th>Function</th>
+            <th>Description</th>
+            <th>Code</th>
+        </tr>
+        {% for func in functions %}
+        <tr>
+            <td>{{ func.module }}</td>
+            <td>{{ func.function }}</td>
+            <td>{{ func.description }}</td>
+            <td><pre>{{ func.code }}</pre></td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
